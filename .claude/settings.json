@@ -1,0 +1,42 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:helpdeskio.com)",
+      "WebSearch",
+      "Bash(laravel --version)",
+      "Bash(php hgp_build/artisan --version)",
+      "Bash(rsync -a /tmp/hgp_build/ /home/laralink/www/helpgeniepro/)",
+      "WebFetch(domain:unsplash.com)",
+      "Bash(curl -sS -L -o \"test-1.jpg\" -w \"HTTP:%{http_code} SIZE:%{size_download}\\\\n\" \"https://images.unsplash.com/photo-1603714228681-b399854b8f80?w=1500&q=80&fm=jpg&fit=crop\" --max-time 40)",
+      "Bash(bash /tmp/dl_images.sh)",
+      "Bash(convert -version)",
+      "Bash(python3 -c ' *)",
+      "Bash(curl -s -o /dev/null -w \"HOME: %{http_code}\\\\n\" http://127.0.0.1:8741/)",
+      "Bash(curl -s http://127.0.0.1:8741/)",
+      "Bash(curl -s -o /dev/null -w \"css:%{http_code} js:\" http://127.0.0.1:8741/css/site.css)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code} img:\" http://127.0.0.1:8741/js/site.js)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://127.0.0.1:8741/images/support-1.jpg)",
+      "Bash(curl -s -o /dev/null -w '%{http_code}' http://127.0.0.1:8741/__TRACKED_VAR__)",
+      "Bash(npx --no-install playwright --version)",
+      "Bash(/usr/bin/file /tmp/shot_home.png)",
+      "Bash(google-chrome --headless --disable-gpu --no-sandbox --hide-scrollbars --window-size=1440,1600 --screenshot=/tmp/shot_home.png \"http://127.0.0.1:8741/\")",
+      "Bash(echo \"exit:$?\")",
+      "Bash(pkill -f \"artisan serve\" 2>/dev/null; rm -rf /tmp/hgp_build /tmp/cr* /tmp/cg_* /tmp/cx_* /tmp/cm* /tmp/ch_* /tmp/shot_* /tmp/v2_* /tmp/f_* /tmp/g_* /tmp/full_* /tmp/raw_* /tmp/crop_* /tmp/sheet_* /tmp/imgtest.jpg /tmp/dl_images.sh /tmp/hgp_*.* /tmp/j.txt /tmp/p.html /tmp/p2.html 2>/dev/null *)",
+      "Bash(google-chrome --headless --disable-gpu --no-sandbox --hide-scrollbars --user-data-dir=/tmp/cf --window-size=1440,6400 --virtual-time-budget=5000 --screenshot=/tmp/foot.png \"http://127.0.0.1:8743/?flat=1\")",
+      "Bash(python3 -c \"from PIL import Image;im=Image.open\\('/tmp/foot.png'\\);im.crop\\(\\(0,im.size[1]-560,1440,im.size[1]\\)\\).save\\('/tmp/foot_crop.png'\\)\")",
+      "Bash(google-chrome --headless --disable-gpu --no-sandbox --hide-scrollbars --user-data-dir=/tmp/cf2 --window-size=1440,8200 --virtual-time-budget=5000 --screenshot=/tmp/foot2.png \"http://127.0.0.1:8744/?flat=1\")",
+      "Bash(google-chrome --headless --disable-gpu --no-sandbox --hide-scrollbars --user-data-dir=/tmp/ce --window-size=1440,1400 --virtual-time-budget=5000 --screenshot=/tmp/hero.png \"http://127.0.0.1:8746/?flat=1\")",
+      "Bash(google-chrome --headless --disable-gpu --no-sandbox --hide-scrollbars --user-data-dir=/tmp/cv --window-size=1440,1400 --virtual-time-budget=5000 --screenshot=/tmp/hv.png \"http://127.0.0.1:8747/?flat=1\")",
+      "Bash(bash /tmp/dlcand.sh)",
+      "Bash(curl -sS -L -o analytics-home.jpg -w \"%{http_code} analytics-home %{size_download}\\\\n\" \"https://images.unsplash.com/photo-1723987251277-18fc0a1effd0?w=1500&q=80&fm=jpg&fit=crop\" --max-time 60)",
+      "Bash(curl -sS -L -o analytics-platform.jpg -w \"%{http_code} analytics-platform %{size_download}\\\\n\" \"https://images.unsplash.com/photo-1745847768367-893e989d3a98?w=1500&q=80&fm=jpg&fit=crop\" --max-time 60)",
+      "Bash(rm -f tech-9.jpg tech-13.jpg)",
+      "Bash(rm -rf /tmp/imgcand /tmp/dlcand.sh /tmp/cand_sheet.jpg /tmp/h2*.png /tmp/hv*.png /tmp/hero*.png /tmp/cta*.png /tmp/foot*.png 2>/dev/null; echo cleaned)",
+      "Bash(google-chrome --headless --disable-gpu --no-sandbox --hide-scrollbars --user-data-dir=/tmp/ck1 --window-size=1440,1050 --virtual-time-budget=6000 --screenshot=/tmp/ha.png \"http://127.0.0.1:8751/?flat=1\")",
+      "Bash(google-chrome --headless --disable-gpu --no-sandbox --hide-scrollbars --user-data-dir=/tmp/ck2 --window-size=1440,620 --virtual-time-budget=6000 --screenshot=/tmp/hb.png \"http://127.0.0.1:8751/platform?flat=1\")"
+    ],
+    "additionalDirectories": [
+      "/tmp"
+    ]
+  }
+}
