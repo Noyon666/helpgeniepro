@@ -1,4 +1,4 @@
-/* HelpGenie Pro — site interactions */
+/* Helpquora — site interactions */
 (function () {
   'use strict';
 

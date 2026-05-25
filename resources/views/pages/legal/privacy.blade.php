@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title', 'Privacy Policy')
-@section('meta', 'How HelpGenie Pro collects, uses and protects personal information across our website and customer service platform.')
+@section('meta', 'How Helpquora collects, uses and protects personal information across our website and customer service platform.')
 
 @section('content')
 
@@ -35,7 +35,7 @@
       </div>
 
       <h2 id="intro">1. Introduction</h2>
-      <p>HelpGenie Pro Inc. ("HelpGenie Pro", "we", "us") provides a customer service platform
+      <p>Helpquora Inc. ("Helpquora", "we", "us") provides a customer service platform
         and the website at this domain. We believe privacy is part of good service, and we keep
         the data we hold to the minimum we genuinely need.</p>
       <p>This policy covers visitors to our website and the administrators and agents who use our
@@ -68,7 +68,7 @@
         consent (which you may withdraw at any time), and compliance with legal obligations.</p>
 
       <h2 id="share">5. Sharing and disclosure</h2>
-      <p>We share information only with trusted service providers who help us run HelpGenie Pro —
+      <p>We share information only with trusted service providers who help us run Helpquora —
         for example hosting, analytics and payment processing — and only under contracts that
         require them to protect it. We may also disclose information where required by law, or as
         part of a merger or acquisition, in which case we will notify you.</p>
@@ -91,8 +91,8 @@
 
       <h2 id="contact">9. Contacting us</h2>
       <p>For any privacy question or request, email us at
-        <a href="mailto:support@helpgeniepro.com">support@helpgeniepro.com</a> or write to
-        HelpGenie Pro Inc., 2300 Market Street, Suite 400, San Francisco, CA 94114, United States.
+        <a href="mailto:support@helpquora.com">support@helpquora.com</a> or write to
+        Helpquora Inc., 2300 Market Street, Suite 400, San Francisco, CA 94114, United States.
         We may update this policy from time to time and will post the new date at the top of this
         page.</p>
 

@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title', 'Integrations')
-@section('meta', 'Connect HelpGenie Pro to the tools your team already uses — e-commerce, messaging, CRM, payments and developer tools — and keep customer data in sync everywhere.')
+@section('meta', 'Connect Helpquora to the tools your team already uses — e-commerce, messaging, CRM, payments and developer tools — and keep customer data in sync everywhere.')
 
 @section('content')
 
@@ -12,7 +12,7 @@
       <div class="crumb"><a href="{{ route('home') }}">Home</a> · Integrations</div>
       <span class="eyebrow center-eb">Connected, not cornered</span>
       <h1 class="h-xl">Fits into the stack <span class="mark">you already love</span>.</h1>
-      <p class="lead">HelpGenie Pro syncs customers, orders and conversations across the apps
+      <p class="lead">Helpquora syncs customers, orders and conversations across the apps
         your team lives in — so context follows the customer everywhere, automatically.</p>
     </div>
     <div class="pill-list" data-reveal data-delay="1" style="justify-content:center;margin-top:26px">
@@ -40,9 +40,9 @@
         ['Pd','Pipedrive','CRM','See deals and customer value beside every conversation.','ic-cobalt'],
         ['St','Stripe','Payments','View subscriptions, charges and refunds without leaving the inbox.','ic-pink'],
         ['Pp','PayPal','Payments','Check payment status and resolve billing questions faster.','ic-ink'],
-        ['No','Notion','Productivity','Turn internal docs into Genie-ready knowledge.','ic-amber'],
+        ['No','Notion','Productivity','Turn internal docs into Quill-ready knowledge.','ic-amber'],
         ['Ji','Jira','Developer','Convert bug reports into tracked engineering issues.','ic-cobalt'],
-        ['Za','Zapier','Productivity','Connect HelpGenie Pro to 6,000+ apps with no code.','ic-pink'],
+        ['Za','Zapier','Productivity','Connect Helpquora to 6,000+ apps with no code.','ic-pink'],
         ['Tw','Twilio','Developer','Power SMS and voice support straight from the inbox.','ic-ink'],
         ['Mc','Mailchimp','Productivity','Sync contacts and trigger follow-up campaigns.','ic-amber'],
       ];
@@ -66,17 +66,17 @@
     <div class="split">
       <div class="split-media" data-reveal>
         <span class="tape" style="background:var(--pink);color:#fff">Developer-ready</span>
-        <img src="{{ asset('images/tech-6.jpg') }}" alt="Developer working with the HelpGenie Pro API">
+        <img src="{{ asset('images/tech-6.jpg') }}" alt="Developer working with the Helpquora API">
       </div>
       <div data-reveal data-delay="1">
         <span class="eyebrow">Build your own</span>
         <h2 class="h-md">Don't see it? Connect it yourself</h2>
         <p class="lead">Our clean, well-documented REST API and webhooks make it simple to wire
-          HelpGenie Pro into any internal tool or homegrown system.</p>
+          Helpquora into any internal tool or homegrown system.</p>
         <ul class="split-list">
           <li><span class="tick pink">✓</span> A modern REST API with clear, generous documentation</li>
           <li><span class="tick pink">✓</span> Real-time webhooks for every conversation event</li>
-          <li><span class="tick pink">✓</span> Custom Genie actions that call your own endpoints</li>
+          <li><span class="tick pink">✓</span> Custom Quill actions that call your own endpoints</li>
           <li><span class="tick pink">✓</span> Sandbox keys so you can build with confidence</li>
         </ul>
         <p style="margin-top:24px"><a href="{{ route('contact') }}" class="textlink">Request developer access</a></p>

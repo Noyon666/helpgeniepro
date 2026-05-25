@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title', 'The Platform')
-@section('meta', 'Explore the HelpGenie Pro platform — a unified inbox, a smart assistant, no-code automation, a self-serve knowledge base, real-time reporting and enterprise-grade security.')
+@section('meta', 'Explore the Helpquora platform — a unified inbox, a smart assistant, no-code automation, a self-serve knowledge base, real-time reporting and enterprise-grade security.')
 
 @section('content')
 
@@ -50,13 +50,13 @@
   <div class="container">
     <div class="split reverse">
       <div class="split-media" data-reveal>
-        <span class="tape" style="background:var(--pink);color:#fff">The Genie</span>
-        <img src="{{ asset('images/tech-1.jpg') }}" alt="The Genie assistant analysing conversations">
+        <span class="tape" style="background:var(--pink);color:#fff">Quill</span>
+        <img src="{{ asset('images/tech-1.jpg') }}" alt="Quill assistant analysing conversations">
       </div>
       <div data-reveal data-delay="1">
-        <span class="eyebrow">The Genie assistant</span>
+        <span class="eyebrow">Quill assistant</span>
         <h2 class="h-md">An assistant that resolves, not just suggests</h2>
-        <p class="lead">The Genie reasons over your knowledge base and past conversations to
+        <p class="lead">Quill reasons over your knowledge base and past conversations to
           answer customers directly — and knows exactly when to bring a human in.</p>
         <ul class="split-list">
           <li><span class="tick pink">✓</span> On-brand draft replies in your team's tone of voice</li>
@@ -109,7 +109,7 @@
           your team, plan headcount and prove impact with confidence.</p>
         <ul class="split-list">
           <li><span class="tick">✓</span> Volume, CSAT and resolution trends in real time</li>
-          <li><span class="tick">✓</span> Genie deflection and automation savings</li>
+          <li><span class="tick">✓</span> Quill deflection and automation savings</li>
           <li><span class="tick">✓</span> Per-agent and per-team workload views</li>
           <li><span class="tick">✓</span> Scheduled exports and shareable reports</li>
         </ul>
@@ -129,7 +129,7 @@
       <div class="fcard" data-reveal data-delay="1">
         <div class="ficon ic-cobalt">▥</div>
         <h3>Self-serve knowledge base</h3>
-        <p>A branded help centre that answers customers around the clock and keeps the Genie
+        <p>A branded help centre that answers customers around the clock and keeps Quill
           perfectly in sync.</p>
       </div>
       <div class="fcard" data-reveal data-delay="2">
@@ -158,7 +158,7 @@
       <div class="fcard" data-reveal data-delay="3">
         <div class="ficon ic-pink">⇄</div>
         <h3>Open API &amp; webhooks</h3>
-        <p>A clean, documented API and webhooks so your team can extend HelpGenie Pro however
+        <p>A clean, documented API and webhooks so your team can extend Helpquora however
           you need.</p>
       </div>
     </div>
@@ -176,7 +176,7 @@
       <div data-reveal data-delay="1">
         <span class="eyebrow on-dark">Enterprise-grade security</span>
         <h2 class="h-md">Built to be trusted with customer data</h2>
-        <p class="lead">Security isn't a tier — it's the foundation. Every HelpGenie Pro account
+        <p class="lead">Security isn't a tier — it's the foundation. Every Helpquora account
           is protected by the same rigorous controls.</p>
         <ul class="split-list">
           <li><span class="tick">✓</span> SOC 2 Type II and GDPR aligned, with HIPAA available</li>
@@ -196,7 +196,7 @@
       <div class="tcard feature" data-reveal style="grid-column:span 3">
         <span class="stars">★★★★★</span>
         <p class="quote">"It genuinely feels like one product, not a Frankenstein of add-ons.
-          Our agents learned it in a morning, and the Genie picked up our tone scarily well."</p>
+          Our agents learned it in a morning, and Quill picked up our tone scarily well."</p>
         <div class="tperson">
           <img src="{{ asset('images/person-10.jpg') }}" alt="Marcus Bello">
           <div>

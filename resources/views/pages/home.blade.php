@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title', 'Customer service that works like magic')
-@section('meta', 'HelpGenie Pro is the all-in-one customer service platform — one shared inbox, a smart assistant and no-code automations that help small teams reply faster and keep customers happy.')
+@section('meta', 'Helpquora is the all-in-one customer service platform — one shared inbox, a smart assistant and no-code automations that help small teams reply faster and keep customers happy.')
 
 @section('content')
 
@@ -19,7 +19,7 @@
       <div class="hero-copy">
         <span class="eyebrow hero-in" style="--d:.05s">The customer service platform</span>
         <h1 class="h-xl hero-in" style="--d:.18s">Customer service that works like <span class="mark mark-anim">magic</span>.</h1>
-        <p class="lead hero-in" style="--d:.32s">HelpGenie Pro brings every email, chat and message into one calm workspace,
+        <p class="lead hero-in" style="--d:.32s">Helpquora brings every email, chat and message into one calm workspace,
           then quietly handles the repetitive work — so your team replies in minutes and
           customers feel genuinely cared for.</p>
         <div class="hero-cta hero-in" style="--d:.46s">
@@ -49,7 +49,7 @@
         <div class="float-card float-2">
           <span class="fc-icon ic-cobalt">✦</span>
           <div>
-            <div class="fc-label">Resolved by Genie</div>
+            <div class="fc-label">Resolved by Quill</div>
             <div class="fc-value">48% of tickets</div>
           </div>
         </div>
@@ -89,7 +89,7 @@
       <span class="eyebrow center-eb">Why teams switch</span>
       <h2 class="h-lg">Support shouldn't feel like firefighting</h2>
       <p class="lead">Tickets scattered across inboxes. Customers repeating themselves. Agents
-        copy-pasting the same answers all day. HelpGenie Pro replaces the chaos with one
+        copy-pasting the same answers all day. Helpquora replaces the chaos with one
         clear system that does the heavy lifting for you.</p>
     </div>
     <div class="grid g-3">
@@ -129,7 +129,7 @@
       <div data-reveal data-delay="1">
         <span class="eyebrow">Unified workspace</span>
         <h2 class="h-md">Every conversation, calmly in one queue</h2>
-        <p class="lead">Stop bouncing between five tabs. HelpGenie Pro pulls every channel into
+        <p class="lead">Stop bouncing between five tabs. Helpquora pulls every channel into
           a tidy, collaborative inbox where your whole team can see what's happening — and who's
           handling it.</p>
         <ul class="split-list">
@@ -149,13 +149,13 @@
   <div class="container">
     <div class="split reverse">
       <div class="split-media" data-reveal>
-        <span class="tape" style="background:var(--pink);color:#fff">Meet the Genie</span>
+        <span class="tape" style="background:var(--pink);color:#fff">Meet Quill</span>
         <img src="{{ asset('images/tech-3.jpg') }}" alt="Smart assistant suggesting replies on a laptop">
       </div>
       <div data-reveal data-delay="1">
         <span class="eyebrow">Smart assistance</span>
         <h2 class="h-md">A teammate that never sleeps</h2>
-        <p class="lead">The Genie reads your knowledge base, your past replies and your tone of
+        <p class="lead">Quill reads your knowledge base, your past replies and your tone of
           voice — then handles the predictable questions instantly and hands the tricky ones
           to a human with a tidy summary.</p>
         <ul class="split-list">
@@ -164,7 +164,7 @@
           <li><span class="tick pink">✓</span> Accuracy guardrails — it only answers when it's confident</li>
           <li><span class="tick pink">✓</span> Smart escalation with a full context handoff, never a cold transfer</li>
         </ul>
-        <p style="margin-top:24px"><a href="{{ route('platform') }}" class="textlink">See how the Genie works</a></p>
+        <p style="margin-top:24px"><a href="{{ route('platform') }}" class="textlink">See how Quill works</a></p>
       </div>
     </div>
   </div>
@@ -188,7 +188,7 @@
       <div class="step" data-reveal data-delay="2">
         <div class="num">2</div>
         <h3>Import your knowledge</h3>
-        <p>Bring over help articles and past replies so the Genie sounds just like you.</p>
+        <p>Bring over help articles and past replies so Quill sounds just like you.</p>
       </div>
       <div class="step" data-reveal data-delay="3">
         <div class="num">3</div>
@@ -215,7 +215,7 @@
       <div data-reveal data-delay="1">
         <span class="eyebrow">Insight you can act on</span>
         <h2 class="h-md">Know exactly where support stands</h2>
-        <p class="lead">See volume, response speed, customer happiness and Genie deflection on
+        <p class="lead">See volume, response speed, customer happiness and Quill deflection on
           dashboards that update in real time — and spot the bottleneck before it becomes a backlog.</p>
         <ul class="split-list">
           <li><span class="tick">✓</span> CSAT and resolution trends, broken down by channel and team</li>
@@ -243,7 +243,7 @@
       </div>
       <div class="stat center" data-reveal data-delay="2">
         <div class="big c-pink">48%</div>
-        <div class="lbl">Tickets resolved by the Genie</div>
+        <div class="lbl">Tickets resolved by Quill</div>
       </div>
       <div class="stat center" data-reveal data-delay="3">
         <div class="big c-blue" style="color:#7d88ff">96%</div>
@@ -267,8 +267,8 @@
     <div class="tgrid">
       <div class="tcard feature" data-reveal data-delay="1">
         <span class="stars">★★★★★</span>
-        <p class="quote">"We replaced three tools with HelpGenie Pro and our backlog vanished in
-          two weeks. The Genie quietly handles half of everything, and our team finally has
+        <p class="quote">"We replaced three tools with Helpquora and our backlog vanished in
+          two weeks. Quill quietly handles half of everything, and our team finally has
           time to be human again."</p>
         <div class="tperson">
           <img src="{{ asset('images/person-2.jpg') }}" alt="Daniel Acheson">
@@ -313,7 +313,7 @@
       <div data-reveal>
         <span class="eyebrow">Plays well with your stack</span>
         <h2 class="h-md">Connected to the tools you already run on</h2>
-        <p class="lead">HelpGenie Pro fits neatly into your workflow — sync customer data,
+        <p class="lead">Helpquora fits neatly into your workflow — sync customer data,
           orders and conversations across the apps your team lives in every day.</p>
         <p style="margin-top:20px"><a href="{{ route('integrations') }}" class="textlink">Browse all integrations</a></p>
       </div>

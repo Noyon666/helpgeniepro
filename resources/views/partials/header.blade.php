@@ -11,8 +11,8 @@
 <header class="site-header">
   <div class="container-wide">
     <nav class="nav">
-      <a href="{{ route('home') }}" class="brand" aria-label="HelpGenie Pro home">
-        <img src="{{ asset('images/dark-logo.png') }}" alt="HelpGenie Pro" class="brand-logo">
+      <a href="{{ route('home') }}" class="brand" aria-label="Helpquora home">
+        <img src="{{ asset('images/dark-logo.png') }}" alt="Helpquora" class="brand-logo">
       </a>
 
       <div class="nav-links">

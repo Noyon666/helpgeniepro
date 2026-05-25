@@ -33,7 +33,11 @@
       "Bash(rm -f tech-9.jpg tech-13.jpg)",
       "Bash(rm -rf /tmp/imgcand /tmp/dlcand.sh /tmp/cand_sheet.jpg /tmp/h2*.png /tmp/hv*.png /tmp/hero*.png /tmp/cta*.png /tmp/foot*.png 2>/dev/null; echo cleaned)",
       "Bash(google-chrome --headless --disable-gpu --no-sandbox --hide-scrollbars --user-data-dir=/tmp/ck1 --window-size=1440,1050 --virtual-time-budget=6000 --screenshot=/tmp/ha.png \"http://127.0.0.1:8751/?flat=1\")",
-      "Bash(google-chrome --headless --disable-gpu --no-sandbox --hide-scrollbars --user-data-dir=/tmp/ck2 --window-size=1440,620 --virtual-time-budget=6000 --screenshot=/tmp/hb.png \"http://127.0.0.1:8751/platform?flat=1\")"
+      "Bash(google-chrome --headless --disable-gpu --no-sandbox --hide-scrollbars --user-data-dir=/tmp/ck2 --window-size=1440,620 --virtual-time-budget=6000 --screenshot=/tmp/hb.png \"http://127.0.0.1:8751/platform?flat=1\")",
+      "Bash(bash /tmp/dlteam.sh)",
+      "Bash(curl -sS -L -o person-8.jpg -w '%{http_code} %{size_download} bytes\\\\n' 'https://images.unsplash.com/photo-1573497161161-c3e73707e25c?w=600&h=600&q=80&fm=jpg&fit=crop&crop=faces' --max-time 60)",
+      "Bash(/usr/bin/file person-8.jpg)",
+      "Bash(bash /tmp/rebrand.sh)"
     ],
     "additionalDirectories": [
       "/tmp"

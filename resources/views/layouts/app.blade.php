@@ -4,8 +4,8 @@
   <script>document.documentElement.className='js';</script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>@yield('title', 'Customer service that works like magic') — HelpGenie Pro</title>
-  <meta name="description" content="@yield('meta', 'HelpGenie Pro unifies every support conversation, automates the busywork and gives your team superpowers — so customers get answers in seconds.')">
+  <title>@yield('title', 'Customer service that works like magic') — Helpquora</title>
+  <meta name="description" content="@yield('meta', 'Helpquora unifies every support conversation, automates the busywork and gives your team superpowers — so customers get answers in seconds.')">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -17,7 +17,7 @@
 <body>
 
   <div class="topbar">
-    HelpGenie Pro is in early access — onboarding the next wave of support teams now.
+    Helpquora is in early access — onboarding the next wave of support teams now.
     <span class="dot">●</span>
     <a href="{{ route('contact') }}">Claim your spot →</a>
   </div>

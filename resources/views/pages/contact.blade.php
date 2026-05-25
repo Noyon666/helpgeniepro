@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title', 'Contact')
-@section('meta', 'Get in touch with the HelpGenie Pro team — start your free trial, book a demo or ask us anything about moving your customer service to one calm workspace.')
+@section('meta', 'Get in touch with the Helpquora team — start your free trial, book a demo or ask us anything about moving your customer service to one calm workspace.')
 
 @section('content')
 
@@ -29,7 +29,7 @@
           <span class="ci-ic">@</span>
           <div>
             <div class="ci-k">Email us</div>
-            <div class="ci-v"><a href="mailto:support@helpgeniepro.com">support@helpgeniepro.com</a></div>
+            <div class="ci-v"><a href="mailto:support@helpquora.com">support@helpquora.com</a></div>
             <p class="muted" style="font-size:.88rem;margin:4px 0 0">For support, sales and everything in between.</p>
           </div>
         </div>
@@ -129,7 +129,7 @@
       @php
         $cfaqs = [
           ['How soon will I hear back?', 'Every message is answered by a real person within one business day — usually much sooner. Urgent? Mention it in your note and we will prioritise your reply.'],
-          ['Can I see HelpGenie Pro before committing?', 'Of course. Ask for a demo in your message and we will walk you through the platform live, using examples close to your own type of business.'],
+          ['Can I see Helpquora before committing?', 'Of course. Ask for a demo in your message and we will walk you through the platform live, using examples close to your own type of business.'],
           ['Do you help us move from our old tool?', 'Yes. Guided migration is free on every plan — our onboarding team handles the import of conversations, contacts and help articles for you.'],
           ['Is the free trial really free?', 'It is. You get 14 days with every feature unlocked and no credit card required. We will only ask for billing details if you decide to continue.'],
         ];

@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title', 'Solutions')
-@section('meta', 'HelpGenie Pro adapts to your industry — retail, SaaS, financial services and healthcare — and to teams of every size, from solo founders to enterprise support.')
+@section('meta', 'Helpquora adapts to your industry — retail, SaaS, financial services and healthcare — and to teams of every size, from solo founders to enterprise support.')
 
 @section('content')
 
@@ -12,7 +12,7 @@
       <div class="crumb"><a href="{{ route('home') }}">Home</a> · Solutions</div>
       <span class="eyebrow center-eb">Made to fit your world</span>
       <h1 class="h-xl">Support that speaks <span class="mark">your industry</span>.</h1>
-      <p class="lead">Every business answers different questions. HelpGenie Pro adapts to the
+      <p class="lead">Every business answers different questions. Helpquora adapts to the
         conversations your customers actually have — whether you ship parcels, software or
         peace of mind.</p>
     </div>
@@ -29,7 +29,7 @@
         <div class="body">
           <span class="cat">Retail &amp; e-commerce</span>
           <h3>Turn order questions into repeat orders</h3>
-          <p>Shoppers want to know where their parcel is — instantly. The Genie answers
+          <p>Shoppers want to know where their parcel is — instantly. Quill answers
             tracking, returns and sizing questions on its own, so your team can focus on the
             customers who need a human touch.</p>
           <ul class="split-list" style="margin-top:4px">
@@ -80,7 +80,7 @@
           <ul class="split-list" style="margin-top:4px">
             <li><span class="tick">✓</span> HIPAA-ready handling and data controls</li>
             <li><span class="tick">✓</span> Friendly appointment and reminder flows</li>
-            <li><span class="tick">✓</span> A warm, consistent tone the Genie learns from you</li>
+            <li><span class="tick">✓</span> A warm, consistent tone Quill learns from you</li>
           </ul>
         </div>
       </div>
@@ -105,7 +105,7 @@
         <div class="grid" style="gap:14px;margin-top:8px">
           <div class="vcard" style="padding:20px 22px">
             <h3 style="font-size:1.05rem">Founders &amp; small teams</h3>
-            <p style="margin:0">Wear every hat? Let the Genie cover support while you build the
+            <p style="margin:0">Wear every hat? Let Quill cover support while you build the
               rest of the business.</p>
           </div>
           <div class="vcard" style="padding:20px 22px">
@@ -129,7 +129,7 @@
   <div class="container">
     <div class="sec-head center-head" data-reveal>
       <span class="eyebrow center-eb">Everyday wins</span>
-      <h2 class="h-md">The conversations HelpGenie Pro quietly handles</h2>
+      <h2 class="h-md">The conversations Helpquora quietly handles</h2>
     </div>
     <div class="pill-list usecase-tabs" data-reveal>
       <span class="pill solid">Where is my order?</span>

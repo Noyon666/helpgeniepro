@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title', 'Cookie Policy')
-@section('meta', 'How HelpGenie Pro uses cookies and similar technologies on our website, and how you can control them.')
+@section('meta', 'How Helpquora uses cookies and similar technologies on our website, and how you can control them.')
 
 @section('content')
 
@@ -66,7 +66,7 @@
       <h2 id="updates">6. Updates and contact</h2>
       <p>We may update this Cookie Policy as our website evolves, and will revise the date above
         when we do. For any question about cookies, email us at
-        <a href="mailto:support@helpgeniepro.com">support@helpgeniepro.com</a>. You can also read
+        <a href="mailto:support@helpquora.com">support@helpquora.com</a>. You can also read
         our <a href="{{ route('privacy') }}">Privacy Policy</a> for the bigger picture on how we
         handle personal information.</p>
 

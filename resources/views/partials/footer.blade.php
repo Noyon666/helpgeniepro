@@ -2,8 +2,8 @@
   <div class="container-wide">
     <div class="foot-top">
       <div class="foot-brand">
-        <a href="{{ route('home') }}" class="brand" aria-label="HelpGenie Pro home">
-          <img src="{{ asset('images/light-logo.png') }}" alt="HelpGenie Pro" class="brand-logo">
+        <a href="{{ route('home') }}" class="brand" aria-label="Helpquora home">
+          <img src="{{ asset('images/light-logo.png') }}" alt="Helpquora" class="brand-logo">
         </a>
         <p>The customer service platform that unifies every conversation, automates the
           repetitive work and helps small teams deliver world-class support.</p>
@@ -53,7 +53,7 @@
     </div>
 
     <div class="foot-bottom">
-      <p>© {{ date('Y') }} HelpGenie Pro Inc. Crafted for support teams everywhere.</p>
+      <p>© {{ date('Y') }} Helpquora Inc. Crafted for support teams everywhere.</p>
       <div class="foot-legal">
         <a href="{{ route('privacy') }}">Privacy Policy</a>
         <a href="{{ route('terms') }}">Terms of Service</a>

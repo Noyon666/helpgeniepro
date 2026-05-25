@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title', 'Terms of Service')
-@section('meta', 'The terms that govern your use of the HelpGenie Pro website and customer service platform.')
+@section('meta', 'The terms that govern your use of the Helpquora website and customer service platform.')
 
 @section('content')
 
@@ -12,7 +12,7 @@
       <span class="eyebrow center-eb">Legal</span>
       <h1 class="h-lg">Terms of Service</h1>
       <p class="lead">Last updated: 12 May 2026. These terms set out the agreement between you
-        and HelpGenie Pro.</p>
+        and Helpquora.</p>
     </div>
   </div>
 </section>
@@ -36,7 +36,7 @@
       </div>
 
       <h2 id="accept">1. Acceptance of terms</h2>
-      <p>By creating an account or using the HelpGenie Pro website or platform, you agree to these
+      <p>By creating an account or using the Helpquora website or platform, you agree to these
         Terms of Service. If you are accepting them on behalf of a company, you confirm that you
         have authority to bind that company. If you do not agree, please do not use the service.</p>
 
@@ -48,7 +48,7 @@
       <h2 id="use">3. Acceptable use</h2>
       <p>You agree not to misuse the service. In particular, you will not:</p>
       <ul>
-        <li>Use HelpGenie Pro to send spam, unlawful or abusive content.</li>
+        <li>Use Helpquora to send spam, unlawful or abusive content.</li>
         <li>Attempt to disrupt, reverse engineer or gain unauthorised access to our systems.</li>
         <li>Resell or sublicense the service without our written permission.</li>
         <li>Upload content that infringes the rights of others or violates applicable law.</li>
@@ -67,13 +67,13 @@
         period. We will give at least 30 days' notice before any price change.</p>
 
       <h2 id="ip">6. Intellectual property</h2>
-      <p>HelpGenie Pro and its software, branding and content are owned by us and protected by
+      <p>Helpquora and its software, branding and content are owned by us and protected by
         intellectual property laws. You retain all rights to the data and content you submit to
         the platform, and you grant us a limited licence to process it solely to provide the
         service.</p>
 
       <h2 id="availability">7. Service availability</h2>
-      <p>We work hard to keep HelpGenie Pro available and reliable, and we publish uptime
+      <p>We work hard to keep Helpquora available and reliable, and we publish uptime
         commitments for eligible plans. From time to time we may perform maintenance or release
         updates, and we will give reasonable notice of any planned downtime where possible.</p>
 
@@ -92,7 +92,7 @@
       <h2 id="changes">10. Changes and contact</h2>
       <p>We may update these terms occasionally; material changes will be communicated by email or
         in-product, and the date above will be revised. Questions about these terms can be sent to
-        <a href="mailto:support@helpgeniepro.com">support@helpgeniepro.com</a> or to HelpGenie Pro
+        <a href="mailto:support@helpquora.com">support@helpquora.com</a> or to Helpquora
         Inc., 2300 Market Street, Suite 400, San Francisco, CA 94114, United States.</p>
 
     </div>

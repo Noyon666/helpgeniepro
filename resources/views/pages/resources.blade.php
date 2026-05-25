@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title', 'Resources')
-@section('meta', 'Practical guides, playbooks and ideas on customer service from the HelpGenie Pro team — written to help support teams work calmer and faster.')
+@section('meta', 'Practical guides, playbooks and ideas on customer service from the Helpquora team — written to help support teams work calmer and faster.')
 
 @section('content')
 
@@ -10,7 +10,7 @@
   <div class="container">
     <div data-reveal>
       <div class="crumb"><a href="{{ route('home') }}">Home</a> · Resources</div>
-      <span class="eyebrow center-eb">The HelpGenie Pro library</span>
+      <span class="eyebrow center-eb">The Helpquora library</span>
       <h1 class="h-xl">Ideas for <span class="mark">calmer, sharper</span> support.</h1>
       <p class="lead">No fluff, no jargon — just practical thinking on customer service, drawn
         from hundreds of conversations with support teams like yours.</p>
@@ -45,7 +45,7 @@
     @php
       $posts = [
         ['office-11.jpg','Strategy','Five support metrics that actually predict churn','Vanity numbers feel good but rarely warn you. Here are the five signals that quietly tell you a customer is about to leave.','8 min read'],
-        ['support-7.jpg','AI & Automation','How to write a knowledge base your assistant will love','A great help centre is also great training data. A simple structure that helps both customers and the Genie answer faster.','6 min read'],
+        ['support-7.jpg','AI & Automation','How to write a knowledge base your assistant will love','A great help centre is also great training data. A simple structure that helps both customers and Quill answer faster.','6 min read'],
         ['tech-11.jpg','Operations','Cutting first response time without hiring anyone','Three changes — triage, templates and the right automations — that halved reply times for teams we work with.','7 min read'],
         ['office-3.jpg','Team','Building a tone of voice your whole team shares','How to capture the way your brand sounds so every reply — human or assisted — feels like one consistent person.','5 min read'],
         ['support-5.jpg','AI & Automation','When to let automation reply — and when not to','A practical line in the sand for deciding which conversations should be resolved automatically and which need a person.','9 min read'],
@@ -60,7 +60,7 @@
             <span class="cat">{{ $p[1] }}</span>
             <h3>{{ $p[2] }}</h3>
             <p>{{ $p[3] }}</p>
-            <div class="meta">{{ $p[4] }} · HelpGenie Pro team</div>
+            <div class="meta">{{ $p[4] }} · Helpquora team</div>
           </div>
         </a>
       @endforeach
@@ -108,7 +108,7 @@
     <div class="note-card" data-reveal style="display:flex;gap:24px;align-items:center;flex-wrap:wrap;justify-content:space-between">
       <div>
         <h3 class="h-sm">Looking for product help?</h3>
-        <p style="margin:0">Our own help centre is built on HelpGenie Pro — searchable articles,
+        <p style="margin:0">Our own help centre is built on Helpquora — searchable articles,
           step-by-step setup guides and an assistant ready to answer.</p>
       </div>
       <a href="{{ route('contact') }}" class="btn btn-ink">Visit the help centre</a>

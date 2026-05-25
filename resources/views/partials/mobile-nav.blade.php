@@ -7,8 +7,8 @@
 @endphp
 <div class="mobile-nav">
   <div class="mn-head">
-    <a href="{{ route('home') }}" class="brand" aria-label="HelpGenie Pro home">
-      <img src="{{ asset('images/dark-logo.png') }}" alt="HelpGenie Pro" class="brand-logo">
+    <a href="{{ route('home') }}" class="brand" aria-label="Helpquora home">
+      <img src="{{ asset('images/dark-logo.png') }}" alt="Helpquora" class="brand-logo">
     </a>
     <button class="mn-close" aria-label="Close menu">&times;</button>
   </div>

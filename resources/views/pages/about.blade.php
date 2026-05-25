@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title', 'Company')
-@section('meta', 'HelpGenie Pro was built by support people, for support people — on a simple belief that great customer service should feel calm, fast and genuinely human.')
+@section('meta', 'Helpquora was built by support people, for support people — on a simple belief that great customer service should feel calm, fast and genuinely human.')
 
 @section('content')
 
@@ -12,7 +12,7 @@
       <div class="crumb"><a href="{{ route('home') }}">Home</a> · Company</div>
       <span class="eyebrow center-eb">Who we are</span>
       <h1 class="h-xl">Built by support people, <span class="mark">for support people</span>.</h1>
-      <p class="lead">We spent years on the other side of the inbox. HelpGenie Pro is the tool
+      <p class="lead">We spent years on the other side of the inbox. Helpquora is the tool
         we always wished we had — calm, quick and genuinely helpful.</p>
     </div>
   </div>
@@ -24,7 +24,7 @@
     <div class="split">
       <div class="split-media" data-reveal>
         <span class="tape">Since 2024</span>
-        <img src="{{ asset('images/office-5.jpg') }}" alt="The HelpGenie Pro founders at work">
+        <img src="{{ asset('images/office-5.jpg') }}" alt="The Helpquora founders at work">
       </div>
       <div data-reveal data-delay="1">
         <span class="eyebrow">Our story</span>
@@ -111,10 +111,10 @@
         <div class="bio">Ran support for two scale-ups before deciding to fix the tooling for good.</div>
       </div>
       <div class="tm" data-reveal data-delay="2">
-        <img src="{{ asset('images/person-8.jpg') }}" alt="Jonas Reyes">
-        <div class="nm">Jonas Reyes</div>
+        <img src="{{ asset('images/person-8.jpg') }}" alt="Mara Reyes">
+        <div class="nm">Mara Reyes</div>
         <div class="rl">Co-founder &amp; CTO</div>
-        <div class="bio">Builds the calm, reliable systems that make the Genie trustworthy.</div>
+        <div class="bio">Builds the calm, reliable systems that make Quill trustworthy.</div>
       </div>
       <div class="tm" data-reveal data-delay="3">
         <img src="{{ asset('images/person-3.jpg') }}" alt="Adil Karam">
@@ -138,7 +138,7 @@
     <div class="split">
       <div class="split-media" data-reveal>
         <span class="tape">We're hiring</span>
-        <img src="{{ asset('images/office-14.jpg') }}" alt="Life at HelpGenie Pro">
+        <img src="{{ asset('images/office-14.jpg') }}" alt="Life at Helpquora">
       </div>
       <div data-reveal data-delay="1">
         <span class="eyebrow">Careers</span>
